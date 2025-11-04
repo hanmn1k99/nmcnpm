@@ -5,7 +5,7 @@
 **Họ tên:** Trần Thanh Hoàng  
 **MSSV:** K23DTCN476  
 **Lớp:** D23CQCN04-K  
-**Github Profile:** [https://github.com/TranThanhHoang-K23DTCN476/QuanLyDatBan](https://github.com/TranThanhHoang-K23DTCN476/QuanLyDatBan)  
+**Github Profile:** [Nguyen Xuan Nghia](https://github.com/hanmn1k99/nmcnpm)  
 
 ## Đề tài: WEBSITE QUẢN LÝ ĐẶT BÀN  
 
