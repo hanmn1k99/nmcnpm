@@ -2,105 +2,111 @@
 *(Introduction to Software Engineering – PTIT)*  
 
 ## Thông tin sinh viên  
-**Họ tên:** Trần Thanh Hoàng  
-**MSSV:** K23DTCN476  
-**Lớp:** D23CQCN04-K  
-**Github Profile:** [Nguyen Xuan Nghia](https://github.com/hanmn1k99/nmcnpm)  
+| Họ tên | MSSV | Lớp | Vai trò |
+|--------|------|------|----------|
+| Trần Duy Vũ Anh | K23DTCN476 | D23TXCN06-K | Fullstack Developer |
+| Lê Doãn Minh | K23DTCN475 | D23TXCN06-K | Fullstack Developer |
+| Hồ Lâm Sơn | K23DTCN481 | D23TXCN06-K | Tester / QA |
+| Nguyễn Xuân Nghĩa | K23DTCN4XX | D23TXCN06-K | UX/UI Design / DevOps |
 
-## Đề tài: WEBSITE QUẢN LÝ ĐẶT BÀN  
-
-### Mục tiêu  
-Xây dựng một **ứng dụng web** hỗ trợ **quản lý đặt bàn cho nhà hàng/cafe**, gồm các chức năng đặt bàn, theo dõi trạng thái bàn, quản lý khu vực, và thống kê doanh thu.  
-Ứng dụng tuân thủ quy trình phát triển phần mềm từ **phân tích yêu cầu → thiết kế → lập kế hoạch → lập trình → kiểm thử → triển khai**.  
+**Github Repository:** [MiniApp-DatBanNhaHang](https://github.com/hanmn1k99/nmcnpm/)  
 
 ---
 
-## Lab 1 – Khởi tạo dự án & Định nghĩa yêu cầu  
+## Đề tài: MINI APP ĐẶT BÀN NHÀ HÀNG  
 
-### Nội dung  
-- Giới thiệu mô hình phát triển phần mềm: Waterfall, Incremental, Agile.  
-- Viết **Project Definition** và **Software Requirement Specification (SRS)** cho đề tài.  
-
-### Bài tập  
-- Chọn đề tài: *Website Quản lý Đặt Bàn.*  
-- Soạn tài liệu **Project Definition** và **SRS** theo mẫu IEEE 830.  
-
-### Kết quả nộp  
-- File: `/lab1/Project_Definition_SRS.docx`  
-- README mô tả tóm tắt nội dung chính của dự án.  
+### 1. Giới thiệu đề tài  
+Mini App Đặt Bàn Nhà Hàng là một ứng dụng web hỗ trợ **quản lý hoạt động đặt bàn** cho các nhà hàng, quán cafe.  
+Hệ thống được phát triển theo mô hình **Agile–Scrum**, hướng tới việc số hóa quy trình quản lý bàn ăn, tối ưu trải nghiệm của khách hàng và nhân viên.  
 
 ---
 
-## Lab 2 – Phân tích & Mô hình hóa hệ thống  
-
-### Nội dung  
-- Thiết kế **Use Case, Activity, Class, Sequence, ERD, DFD**.  
-- Mô tả luồng sự kiện, hành vi và dữ liệu của hệ thống.  
-
-### Bài tập  
-- Dựa vào SRS ở Lab 1, vẽ và mô tả:  
-  - Use Case Diagram + mô tả chi tiết.  
-  - Activity Diagram cho chức năng “Đặt bàn”.  
-  - Class Diagram, Sequence Diagram.  
-  - ERD và DFD (mức 0 và mức 1).  
-
-### Kết quả nộp  
-- Thư mục: `/lab2/uml-diagrams/`  
-- File UML: `.drawio`, `.png`, hoặc `.pdf`.  
+### 2. Mục tiêu  
+- Xây dựng ứng dụng web với **giao diện trực quan**, giúp nhân viên và quản lý dễ dàng thao tác.  
+- Ứng dụng quy trình **phát triển phần mềm hiện đại (Agile-Scrum)**, kết hợp **CI/CD – DevOps** trong triển khai.  
+- Thực hành kỹ năng **kiểm thử, đánh giá chất lượng phần mềm**, và **báo cáo phân tích cải tiến**.  
 
 ---
 
-## Lab 3 – Quản lý dự án & Quản lý cấu hình  
+## 3. Yêu cầu chính của đề tài  
 
-### Nội dung  
-- Lập **Project Plan, WBS, Gantt Chart** bằng MS Project hoặc Trello.  
-- Phân tích rủi ro (Risk Management).  
-- Quản lý mã nguồn bằng **Git/GitHub**.  
+### a. Chức năng chính của phần mềm  
+**Quản lý bàn**  
+- Thêm, sửa, xóa, tìm kiếm, hiển thị danh sách bàn.  
 
-### Bài tập  
-- Tạo **WBS + Gantt Chart** cho dự án nhóm.  
-- Commit toàn bộ tài liệu và sơ đồ lên GitHub.  
+**Quản lý đặt bàn**  
+- Tạo đặt bàn, cập nhật, hủy đặt bàn, xử lý thanh toán.  
 
-### Kết quả nộp  
-- Thư mục: `/lab3/`  
-- File: `project_plan.pdf`, `risk_management.xlsx`.  
-- Link GitHub repo: [QuanLyDatBan](https://github.com/TranThanhHoang-K23DTCN476/QuanLyDatBan).  
-
----
-
-## Lab 4 – Thiết kế, Kiểm thử & Triển khai  
-
-### Nội dung  
-- Thiết kế **giao diện người dùng (UI)** và **cơ sở dữ liệu**.  
-- Ứng dụng mô hình **MVC + SOA** trong phần demo.  
-- Viết **Unit Test**, quản lý lỗi bằng **GitHub Issues**.  
-- Đóng gói và triển khai ứng dụng.  
-
-### Bài tập  
-- Thiết kế UI bằng **Figma** hoặc **HTML/CSS/ReactJS**.  
-- Xây dựng backend bằng **NodeJS + Express + Prisma (PostgreSQL)**.  
-- Viết Unit Test & ghi nhận lỗi.  
-- Deploy demo (Render / Vercel / Railway / Xampp).  
-
-### Kết quả nộp  
-- Thư mục: `/lab4/`  
-- Source code + script Database.  
-- Báo cáo kiểm thử và hướng dẫn deploy.  
+**Giao diện người dùng**  
+- Thiết kế thân thiện, trực quan, bao gồm:  
+  - Trang chủ  
+  - Danh sách bàn  
+  - Lịch đặt  
+  - Thông báo trạng thái  
 
 ---
 
-## Đồ án cuối khóa (Course Project)  
+### b. Chức năng kiểm thử và đánh giá chất lượng  
+- **Kiểm thử đơn vị (Unit Test):** bằng JUnit.  
+- **Kiểm thử giao diện (UI Test):** bằng Selenium.  
+- **Kiểm thử API:** bằng Postman hoặc MockMvc.  
+- Báo cáo kết quả test: pass/fail, tỷ lệ bao phủ, lỗi phát hiện.  
 
-### Nội dung  
-Hoàn thiện toàn bộ quy trình phát triển **Website Quản lý Đặt Bàn**, bao gồm:  
-- Project Definition + SRS  
-- UML (Use Case, Activity, Class, ERD, DFD)  
-- Kế hoạch dự án + Risk Management  
-- Giao diện người dùng  
-- Cơ sở dữ liệu  
-- Mã nguồn MVC (NodeJS + React)  
-- Kiểm thử & Báo cáo  
+---
 
+### c. Báo cáo thống kê và cải tiến  
+- Tổng hợp **test case**, **tỷ lệ pass/fail**, **coverage (%)**.  
+- Đề xuất **cải tiến hệ thống** dựa trên kết quả test, ví dụ:  
+  - Gợi ý bàn trống tự động.  
+  - Cảnh báo trùng lịch đặt bàn.  
 
-## Gợi ý cấu trúc thư mục repo  
+---
 
+### d. Công cụ phát triển và kiểm thử  
+| Hạng mục | Công cụ / Công nghệ |
+|-----------|----------------------|
+| Backend | Java Spring Boot |
+| Cơ sở dữ liệu | H2 / MySQL |
+| IDE | Visual Studio Code |
+| Kiểm thử | JUnit, Selenium, Postman, Mockito |
+| Quản lý mã nguồn | GitHub (Public Repository) |
+| Quy trình phát triển | Agile – Scrum |
+| CI/CD | Jenkins / GitHub Actions |
+
+---
+
+## 4. Quy trình và Phân công theo Agile – Scrum  
+
+### Sprint Plan  
+| Sprint | Nội dung chính | Deliverables |
+|--------|----------------|--------------|
+| Sprint 0 | Thiết lập môi trường, tạo repo GitHub, định nghĩa backlog | Project Definition + SRS |
+| Sprint 1 | Thiết kế UI/UX, tạo model, database schema | Use Case, ERD, UI wireframe |
+| Sprint 2 | Cài đặt module Đặt bàn và Quản lý bàn | API Backend + Frontend Form |
+| Sprint 3 | Kiểm thử (JUnit, Selenium, Postman), CI/CD pipeline | Test Report + Deployment |
+
+### Daily Scrum  
+- Cập nhật tiến độ, blocker, kế hoạch trong nhóm.  
+
+### Sprint Review & Retrospective  
+- Đánh giá kết quả, điểm mạnh và cải tiến ở mỗi Sprint.  
+
+---
+
+## 5. Kết quả và Báo cáo  
+
+### a. Báo cáo kỹ thuật  
+- Tài liệu thiết kế: `Project_Definition_SRS.docx`  
+- UML: Use Case, Activity, Sequence, ERD  
+- Code và test scripts: `/src` và `/test`  
+
+### b. Kiểm thử và Đánh giá  
+- Unit Test: 20 test case JUnit  
+- UI Test: Selenium chạy trên ChromeDriver  
+- API Test: Postman collection + MockMvc  
+- Báo cáo coverage & lỗi: `Test_Report.xlsx`  
+
+### c. Triển khai  
+- CI/CD với GitHub Actions  
+- Deploy thử nghiệm trên Railway / Render  
+- Hướng dẫn triển khai: `Deployment_Guide.docx`  
